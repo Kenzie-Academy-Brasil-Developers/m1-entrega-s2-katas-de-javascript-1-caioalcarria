@@ -110,18 +110,36 @@ while(num>=1){
 
 function oddNumbersBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+let num=20
+while(num>=1){
+    
+    if(num%2!=0){
+        console.log(num)
+    }
+    
+    
+    num= num-1
+
+   
+}
 }
 
 //call function oddNumbersBackwards
 
 function multiplesOfFiveBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+ let num=100
+while(num>=1){
+    
+    if(num%5!=0){
+        console.log(num)
+    }
+    
+    
+    num= num-1
+
+   
+}
 }
 
 //call function multiplesOfFiveBackwards
