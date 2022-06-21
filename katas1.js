@@ -1,8 +1,11 @@
 function oneThroughTwenty() {
     
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
+   let num=0
+while(num<20){
+    num++
+    console.log(num)
+   
+}
     
 }
 
@@ -10,9 +13,15 @@ function oneThroughTwenty() {
 
 function evensToTwenty() {
     
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
+  let num=0
+while(num<20){
+    num++
+    if(num%2==0){
+        console.log(num)
+    }
+    
+   
+}
   
 }
 
@@ -20,10 +29,15 @@ function evensToTwenty() {
 
 function oddsToTwenty() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+let num=0
+while(num<20){
+    num++
+    if(num%2!=0){
+        console.log(num)
+    }
+    
    
+}
 }
 
 //call function oddsToTwenty
