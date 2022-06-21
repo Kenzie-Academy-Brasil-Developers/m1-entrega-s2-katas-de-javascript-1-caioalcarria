@@ -30,38 +30,66 @@ function oddsToTwenty() {
 
 function multiplesOfFive() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-
+let num=0
+while(num<100){
+    num++
+    if(num%5==0){
+        console.log(num)
+    }
+    
+   
+}
 }
 
 //call function multiplesOfFive
 
 function squareNumbers() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+let num=0
+while(num<100){
+    num++
+    let quadrado = num**2
+    if(quadrado<=100){
+        console.log(quadrado)
+    }
     
+   
+}
 }
 
 //call function squareNumbers
 
 function countingBackwards() {
     
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+let num=20
+while(num>=1){
+    
+    
+    console.log(num)
+    
+    num= num-1
+
+    
+   
+}
 }
 
 //call function countingBackwards
 
 function evenNumbersBackwards() {
     
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+let num=20
+while(num>=1){
+    
+    if(num%2==0){
+        console.log(num)
+    }
+    
+    
+    num= num-1
+
+   
+}
 }
 
 //call function evenNumbersBackwards
