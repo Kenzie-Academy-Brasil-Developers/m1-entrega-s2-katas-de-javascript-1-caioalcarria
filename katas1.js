@@ -146,9 +146,22 @@ while(num>=1){
 
 function squareNumbersBackwards() {
     
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  let num=100
+while(num>=1){
+    
+    let quadrado = num**2
+
+   if(quadrado<=100){
+         console.log(quadrado)
+   }
+   
+    
+    
+    
+    num= num-1
+
+   
+}
 }
 
 //call function squareNumbersBackwards
