@@ -155,7 +155,7 @@ function oneThroughTwenty() {
  //call function oddNumbersBackwards
  function multiplesOfFiveBackwards() {
     let array = [] 
- let num=100
+ let num=101
  while(num>1){
      num=num-1
      if(num%5==0){
